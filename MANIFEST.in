@@ -1,2 +1,2 @@
 include *.txt
-recursive-include damo *.txt
+recursive-include damo/base_models/backbones/nas_backbones *.txt
