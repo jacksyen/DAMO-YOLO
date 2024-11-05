@@ -37,9 +37,5 @@ setuptools.setup(
         'Operating System :: OS Independent'
     ],
     cmdclass={'build_ext': torch.utils.cpp_extension.BuildExtension},
-    packages=setuptools.find_packages(),
-    package_data={
-        'damo': ['*.txt']  # 指定包含 damo 包中的所有 .txt 文件
-    },
-    include_package_data=True,  # 确保包含包内的额外文件
+    packages=setuptools.find_packages()
 )
